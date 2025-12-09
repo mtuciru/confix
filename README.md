@@ -30,7 +30,7 @@ Note: The library does not map environment variables into struct fields. Environ
 go get github.com/mtuciru/confix
 ```
 
-Requires Go 1.20+ (the project’s `go` directive is 1.25).
+Requires Go 1.22+.
 
 ## Quick Start
 
@@ -163,7 +163,7 @@ A: Writes use temp files and an atomic rename to minimize the risk of partial fi
 
 ## Version Compatibility
 
-- Go 1.20+.
+- Go 1.22+.
 
 ## Contributing
 
